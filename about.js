@@ -16,7 +16,7 @@ class AboutPage extends Component {
   }
 
   componentDidMount() {
-    
+    queueMicrotask(() => console.log('componentDidMount params:', this.props.params));
   }
 
   componentWillUnmount() {
