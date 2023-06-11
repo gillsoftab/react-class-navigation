@@ -1,1 +1,1 @@
-# react-class-navigation
+# react-navigation
